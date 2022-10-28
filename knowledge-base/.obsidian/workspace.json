@@ -1,0 +1,216 @@
+{
+  "main": {
+    "id": "84ea7ba6cadf9ffc",
+    "type": "split",
+    "children": [
+      {
+        "id": "8a85a28d0a113285",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1c8c7c2eb5134147",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "System design/3. Instagram.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "87a4ea3b65dcdb98",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Architecture/Data partitioning.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "50055b07e58735a6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Architecture/Scaling.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3bf1230ccc29691b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Blockchain/Cosmos Network/Cosmos SDK.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a732d73e378c6e91",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Rust/Rust.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "590c8f353ac02a60",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "System design/1. URL shortener.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "c9d0bc63abb37291",
+    "type": "split",
+    "children": [
+      {
+        "id": "05cc86f42ce3622f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a3360906c9c1e204",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "d2a79ab6d7099d14",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "497d4613be2f9d2e",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 249.5
+  },
+  "right": {
+    "id": "d4f38a9959cff2bd",
+    "type": "split",
+    "children": [
+      {
+        "id": "34ac0ded015c3719",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1d565f39a6ba062c",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Rust/Rust.md",
+                "collapseAll": true,
+                "extraContext": true,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "36e18e0f0186f4fe",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Rust/Rust.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "8a3016782fd7ebe2",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "45eac3e2b6f166e1",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Rust/Rust.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "ribbon": {
+    "mostRecentAction": ""
+  },
+  "active": "a732d73e378c6e91",
+  "lastOpenFiles": [
+    "Blockchain/Cosmos Network/Cosmos SDK.md",
+    "Architecture/Scaling.md",
+    "Architecture/Data partitioning.md",
+    "System design/3. Instagram.md",
+    "System design/_Questions.md",
+    "System design/___.md",
+    "System design/1. URL shortener.md",
+    "Databases/Databases.md",
+    "System design/2. Pastebin.md",
+    "Algorithms/Algorithms.md"
+  ]
+}

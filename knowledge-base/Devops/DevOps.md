@@ -1,0 +1,23 @@
+# Kubernetes
+
+
+# Terraform
+
+
+# Cloud Providers
+
+## AWS
+
+### Amazon CloudFront
+
+Amazon CloudFront is a fast content delivery network (CDN) that transparently caches data from Amazon S3 in a large set of geographically distributed points of presence (PoPs).
+
+### Amazon ElastiCacheAWS Elemental MediaStore
+
+Amazon ElastiCache is a managed, in-memory cache.
+
+### AWS Elemental MediaStore
+
+AWS Elemental MediaStore is a caching and content distribution system specifically built for video workflows and media delivery from Amazon S3.
+
+## GCP
