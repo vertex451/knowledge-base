@@ -1,0 +1,152 @@
+{
+  "main": {
+    "id": "23874f45fb25c8f8",
+    "type": "split",
+    "children": [
+      {
+        "id": "355903c1e45bfceb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e1a1f3cd680f43fc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Blockchain/Cosmos Network/Tendermint.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "4ac46a14e9832a99",
+    "type": "split",
+    "children": [
+      {
+        "id": "4191569229013fa4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0b121dfc0579bf5a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "e4850adf4658e723",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "074f8954329a3a6a",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "e47d36072766a9ba",
+    "type": "split",
+    "children": [
+      {
+        "id": "9077d44237979375",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2527c587a3b0bc9a",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Blockchain/Cosmos Network/Tendermint.md",
+                "collapseAll": true,
+                "extraContext": true,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "bd540bc2faeee297",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Blockchain/Cosmos Network/Tendermint.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "a4b191058bde5dec",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "3d9b751e3f81a1ce",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Blockchain/Cosmos Network/Tendermint.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "active": "e1a1f3cd680f43fc",
+  "lastOpenFiles": [
+    "Assets/Pasted image 20221112181821.png",
+    "Blockchain/Cosmos Network/Tendermint.md",
+    "Blockchain/Cosmos Network/Cosmos SDK.md",
+    "Rust/4. Enums and Pattern Matching.md",
+    "Rust/3. Structs.md",
+    "Blockchain/Sologenic.md",
+    "Rust/1. Common Programming Concepts.md",
+    "Rust/2. Ownership, borrowing and slices.md",
+    "Assets/String-memory-representation.png",
+    "Rust/0. My Rust notes.md"
+  ]
+}

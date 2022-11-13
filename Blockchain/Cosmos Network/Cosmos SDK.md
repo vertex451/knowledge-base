@@ -78,80 +78,16 @@ is a `KVStore` wrapper which provides automatic key-prefixing functionalities 
 
 ## Tenderming
 
-Tendermint is an application-agnostic engine that is responsible for handling the networking and consensus layers of a blockchain.
-
-Any application built on Tendermint needs to implement the ABCI interface in order to communicate with the underlying local Tendermint engine. Fortunately, you do not have to implement the ABCI interface. The Cosmos SDK provides a boilerplate implementation of it
+[[Tendermint]]
 
 ## CosmWasm
 
-is a smart contracting platform built for the Cosmos ecosystem.
+CosmWasm (Cosmos WebAssambley) is a smart contracting platform built for the Cosmos ecosystem.
 
 ## Ethermint 
 
 Ethermint is a software developed to port the EVM into a Cosmos module. It makes scalable, high-throughput, PoS blockchains possible. These are fully compatible with Ethereum and the Cosmos SDK.
 All Ethereum tools (such as Truffle and Metamask) are compatible with Ethermint. Developers can even port their Solidity smart contracts to interact with the Cosmos Ecosystem.
-
-
-```
-package from_graqph  
-  
-import (  
-   "fmt"  
-   "strconv"   "testing"  
-   "compressed-allocations/src-go/stakers/internal/config"   "compressed-allocations/src-go/stakers/internal/types"  
-   "github.com/stretchr/testify/assert"  
-   log "github.com/sirupsen/logrus"  
-)  
-  
-func TestGetAllStakingData(t *testing.T) {  
-   const totalDepositAmount = 100  
-   svc := service{  
-      cfg: &config.Config{  
-         GraphPageSize: 10,  
-      },  
-      client: eventsRetrieverMock{  
-         totalDepositAmount: totalDepositAmount,  
-         depositors:         makeDepositorsArray(totalDepositAmount),  
-      },  
-   }  
-  
-   res, err := svc.GetAllStakingData(totalDepositAmount)  
-   fmt.Println("res", len(res))  
-  
-   assert.Nil(t, err)  
-}  
-  
-type eventsRetrieverMock struct {  
-   totalDepositAmount int  
-   depositors         []types.Depositor  
-}  
-  
-func (e eventsRetrieverMock) GetTotalDepositorsAmount() (int, error) {  
-   return e.totalDepositAmount, nil  
-}  
-  
-func (e eventsRetrieverMock) GetStakingDataByBunch(limit int, after string) ([]types.Depositor, error) {  
-   fmt.Println("###", limit, after)  
-   if after == "" {  
-      return e.depositors[:limit], nil  
-   }  
-  
-   afterToInt, err := strconv.Atoi(after)  
-   if err != nil {  
-      log.Fatal(err)  
-   }  
-  
-   return e.depositors[afterToInt : afterToInt+limit-1], nil  
-}  
-  
-func makeDepositorsArray(len int) (res []types.Depositor) {  
-   for i := 0; i < len; i++ {  
-      res = append(res, types.Depositor{Id: fmt.Sprintf("%v", i), TotalAmountDepositedInGwei: "1"})  
-   }  
-  
-   return res  
-}
-```
 
 ## Ignite CLI
 
