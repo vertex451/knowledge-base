@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "work notes.md",
+                "file": "Rust/2. Ownership, borrowing and slices.md",
                 "mode": "source",
                 "source": false
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "work notes.md",
+                "file": "Rust/2. Ownership, borrowing and slices.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -159,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "work notes.md",
+                "file": "Rust/2. Ownership, borrowing and slices.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "work notes.md"
+                "file": "Rust/2. Ownership, borrowing and slices.md"
               }
             }
           }
@@ -193,8 +193,21 @@
     "direction": "horizontal",
     "width": 200
   },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
   "active": "c8f06b06734cfc87",
   "lastOpenFiles": [
+    "Rust/1. Common Programming Concepts.md",
+    "Rust/2. Ownership, borrowing and slices.md",
+    "Rust/0. My Rust notes.md",
     "logs.md",
     "work notes.md",
     "Blockchain/Cosmos Network/Questions.md",
